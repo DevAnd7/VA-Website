@@ -15,3 +15,13 @@ body{
   object-fit: cover;
   object-position: 50% 15%;
 }
+
+#carouselGallery{
+max-width: 1000px;
+margin: 0 auto;
+}
+
+#carouselGallery img{
+  max-height: 500px;
+  object-fit: contain;
+}
