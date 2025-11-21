@@ -25,3 +25,9 @@ margin: 0 auto;
   max-height: 500px;
   object-fit: contain;
 }
+
+.img-taller {
+  max-width: 250px;   /* ancho máximo */
+  max-height: 250px;  /* altura máxima */
+  object-fit: cover;  /* recorta manteniendo proporción */
+}
